@@ -1,0 +1,42 @@
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\WindowsFormsAppJune8\obj\Debug\JapaneseApp.csprojAssemblyReference.cache
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\WindowsFormsAppJune8\obj\Debug\JapaneseApp.Properties.Resources.resources
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\WindowsFormsAppJune8\obj\Debug\JapaneseApp.csproj.GenerateResource.cache
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\WindowsFormsAppJune8\obj\Debug\JapaneseApp.csproj.CoreCompileInputs.cache
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\WindowsFormsAppJune8\bin\Debug\JapaneseApp.exe.config
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\WindowsFormsAppJune8\bin\Debug\JapaneseApp.exe
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\WindowsFormsAppJune8\bin\Debug\JapaneseApp.pdb
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\WindowsFormsAppJune8\bin\Debug\FlickrNet.dll
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\WindowsFormsAppJune8\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\WindowsFormsAppJune8\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\WindowsFormsAppJune8\obj\Debug\JapaneseApp.Form1.resources
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\WindowsFormsAppJune8\obj\Debug\JapaneseApp.csproj.CopyComplete
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\WindowsFormsAppJune8\obj\Debug\JapaneseApp.exe
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\WindowsFormsAppJune8\obj\Debug\JapaneseApp.pdb
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\JapaneseApp\bin\Debug\JapaneseApp.exe.config
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\JapaneseApp\bin\Debug\JapaneseApp.exe
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\JapaneseApp\bin\Debug\JapaneseApp.pdb
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\JapaneseApp\bin\Debug\FlickrNet.dll
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\JapaneseApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\JapaneseApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\JapaneseApp\obj\Debug\JapaneseApp.csprojAssemblyReference.cache
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\JapaneseApp\obj\Debug\JapaneseApp.Form1.resources
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\JapaneseApp\obj\Debug\JapaneseApp.Properties.Resources.resources
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\JapaneseApp\obj\Debug\JapaneseApp.csproj.GenerateResource.cache
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\JapaneseApp\obj\Debug\JapaneseApp.csproj.CoreCompileInputs.cache
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\JapaneseApp\obj\Debug\JapaneseApp.csproj.CopyComplete
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\JapaneseApp\obj\Debug\JapaneseApp.exe
+C:\Users\Luke\Desktop\JapaneseDictionaryApp\JapaneseApp\obj\Debug\JapaneseApp.pdb
+C:\Users\Luke\Desktop\Japanese App\JapaneseApp\bin\Debug\JapaneseApp.exe.config
+C:\Users\Luke\Desktop\Japanese App\JapaneseApp\bin\Debug\JapaneseApp.exe
+C:\Users\Luke\Desktop\Japanese App\JapaneseApp\bin\Debug\JapaneseApp.pdb
+C:\Users\Luke\Desktop\Japanese App\JapaneseApp\bin\Debug\FlickrNet.dll
+C:\Users\Luke\Desktop\Japanese App\JapaneseApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Luke\Desktop\Japanese App\JapaneseApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Luke\Desktop\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.csprojAssemblyReference.cache
+C:\Users\Luke\Desktop\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.Form1.resources
+C:\Users\Luke\Desktop\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.Properties.Resources.resources
+C:\Users\Luke\Desktop\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.csproj.GenerateResource.cache
+C:\Users\Luke\Desktop\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.csproj.CoreCompileInputs.cache
+C:\Users\Luke\Desktop\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.csproj.CopyComplete
+C:\Users\Luke\Desktop\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.exe
+C:\Users\Luke\Desktop\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.pdb

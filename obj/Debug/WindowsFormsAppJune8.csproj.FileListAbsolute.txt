@@ -1,0 +1,14 @@
+c:\users\luke\Source\Repos\WindowsFormsAppJune8\WindowsFormsAppJune8\obj\Debug\WindowsFormsAppJune8.csprojAssemblyReference.cache
+c:\users\luke\Source\Repos\WindowsFormsAppJune8\WindowsFormsAppJune8\obj\Debug\WindowsFormsAppJune8.Form1.resources
+c:\users\luke\Source\Repos\WindowsFormsAppJune8\WindowsFormsAppJune8\obj\Debug\WindowsFormsAppJune8.Properties.Resources.resources
+c:\users\luke\Source\Repos\WindowsFormsAppJune8\WindowsFormsAppJune8\obj\Debug\WindowsFormsAppJune8.csproj.GenerateResource.cache
+c:\users\luke\Source\Repos\WindowsFormsAppJune8\WindowsFormsAppJune8\obj\Debug\WindowsFormsAppJune8.csproj.CoreCompileInputs.cache
+c:\users\luke\Source\Repos\WindowsFormsAppJune8\WindowsFormsAppJune8\bin\Debug\WindowsFormsAppJune8.exe.config
+c:\users\luke\Source\Repos\WindowsFormsAppJune8\WindowsFormsAppJune8\bin\Debug\WindowsFormsAppJune8.exe
+c:\users\luke\Source\Repos\WindowsFormsAppJune8\WindowsFormsAppJune8\bin\Debug\WindowsFormsAppJune8.pdb
+c:\users\luke\Source\Repos\WindowsFormsAppJune8\WindowsFormsAppJune8\obj\Debug\WindowsFormsAppJune8.exe
+c:\users\luke\Source\Repos\WindowsFormsAppJune8\WindowsFormsAppJune8\obj\Debug\WindowsFormsAppJune8.pdb
+c:\users\luke\Source\Repos\WindowsFormsAppJune8\WindowsFormsAppJune8\bin\Debug\Newtonsoft.Json.dll
+c:\users\luke\Source\Repos\WindowsFormsAppJune8\WindowsFormsAppJune8\bin\Debug\Newtonsoft.Json.xml
+c:\users\luke\Source\Repos\WindowsFormsAppJune8\WindowsFormsAppJune8\obj\Debug\WindowsFormsAppJune8.csproj.CopyComplete
+C:\Users\Luke\Source\Repos\WindowsFormsAppJune8\WindowsFormsAppJune8\bin\Debug\FlickrNet.dll
