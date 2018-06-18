@@ -64,5 +64,3 @@ Newtonsoft.Json [Json.NET](https://www.newtonsoft.com/json) JSON framework used 
 * Create an [Anki](https://github.com/dae/anki) flashcard with everything.
 * Options for using a different search engine besides Flickr for images. E.g. Google, Bing
 * General UI improvments
-
-![alt text][Mountain]
