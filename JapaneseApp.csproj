@@ -35,6 +35,9 @@
     <Reference Include="FlickrNet, Version=3.25.0.0, Culture=neutral, PublicKeyToken=2491df59efa5d132, processorArchitecture=MSIL">
       <HintPath>..\packages\FlickrNet.3.25.0\lib\net20\FlickrNet.dll</HintPath>
     </Reference>
+    <Reference Include="KanaConverterLib">
+      <HintPath>..\..\..\..\Desktop\KanaConverter-master\KanaConverter-master\KanaConverterLib\bin\Release\KanaConverterLib.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -71,7 +74,7 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="Markdown\README.md" />
+    <None Include="Ω Changelog.md" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -92,6 +95,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="README.md" />
     <None Include="Resources\JapaneseFlag.png" />
   </ItemGroup>
   <ItemGroup>
@@ -99,6 +103,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Starting Photo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JapaneseAppVer1.1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

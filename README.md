@@ -1,29 +1,14 @@
 ﻿# Japanese App  
-<br/>
-
-[What Is It?](#What-Is-It)
-<br>
-[What Can You Do With It?](#What-Can-You-Do-With-It)
-<br>
-[How Do You Use It?](#How-Do-You-Use-It)
-<br>
-[What Does It Use?](#What-does-it-use)
-<br>
-[Possible Future Features](#Possible-Future-Features)
-
-
 <br>
 
 #### What is it
 It is an application to assist those studying Japanese.
-
 <br>
 
 #### What Can You Do With It
 Search with English or Japanese words and be provided with the word in Japanese and English.
 <br>
 An image of the searched term will also be shown. 
-
 <br>
 
 #### How Do You Use It
@@ -51,12 +36,14 @@ An image of the searched term will also be shown.
 Newtonsoft.Json [Json.NET](https://www.newtonsoft.com/json) JSON framework used for deserializing Jisho.org's JSON into C# objects 
 <br>
 [FlickrNet API Library](https://archive.codeplex.com/?p=flickrnet) for accessing [Flickr API](https://www.flickr.com/services/api/) for images
+<br>
+[KanaConverter](https://github.com/pilotMike/KanaConverter) for converting the Japanese Kana into Romaji
 
 
 #### Possible Future Features
 
 * Suggested search removed from UI and put into the MenuStrip. 
-* Romanization option for those who can not read the Japanese Kana 
+* ~~Romanization option for those who can not read the Japanese Kana~~ (Romaji Added in Ver 1.1)
 * Part of spech information added. E.g noun,verb.
 * Sentences for both English and Japanese. 
 * Audio addition.

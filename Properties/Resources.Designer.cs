@@ -63,6 +63,16 @@ namespace JapaneseApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap JapaneseAppVer1_1 {
+            get {
+                object obj = ResourceManager.GetObject("JapaneseAppVer1.1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap JapaneseFlag {
             get {
                 object obj = ResourceManager.GetObject("JapaneseFlag", resourceCulture);
@@ -76,16 +86,6 @@ namespace JapaneseApp.Properties {
         internal static System.Drawing.Bitmap No_image_available {
             get {
                 object obj = ResourceManager.GetObject("No_image_available", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Starting_Photo {
-            get {
-                object obj = ResourceManager.GetObject("Starting Photo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

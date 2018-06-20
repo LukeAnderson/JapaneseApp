@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using KanaConverterLib;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Net;
@@ -12,6 +13,7 @@ namespace JapaneseApp
         private int currentResult;
 
         RootObject json;
+        KanaRomajiConverter kanaRomajiConverter;
 
         public JsonController()
         {
@@ -19,6 +21,8 @@ namespace JapaneseApp
 
             webClient = new WebClient();
             webClient.Encoding = Encoding.UTF8;
+
+            kanaRomajiConverter = new KanaRomajiConverter();
 
             currentResult = 0;
         }
@@ -87,18 +91,26 @@ namespace JapaneseApp
         {
             if (japaneseIndex < numOfJapaneses())
             {
-                string kanji = getWord(japaneseIndex);
+                string kanji = getWord(japaneseIndex);//if there is kanji get it
+                string reading = getReading(japaneseIndex);
+                string romaji = getRomaji(reading);
                 if (string.IsNullOrWhiteSpace(kanji))
                 {
-                    return getReading(japaneseIndex);
+                    return "\t\t" + reading + "\t\t" + romaji;
                 }
 
-                return kanji + "\t\t" + getReading(japaneseIndex);
+                //put kanji in front of reading
+                return kanji + "\t\t" + reading + "\t\t" + romaji;
             }
             else
             {
                 return "error japanese index out of bounds";
             }
+        }
+
+        public string getRomaji(string kana)
+        {
+            return kanaRomajiConverter.Convert(kana);
         }
 
         public List<string> getJapaneses()
@@ -124,7 +136,7 @@ namespace JapaneseApp
         }
         #endregion
 
-        #region english definitions
+        #region English definitions
 
         public string getEnglishDefiniton(int sensesIndex, int englishDefinitionsIndex)
         {

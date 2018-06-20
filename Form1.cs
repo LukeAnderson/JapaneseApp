@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
+using KanaConverterLib;
 
 namespace JapaneseApp
 {
@@ -13,7 +14,6 @@ namespace JapaneseApp
 
 
         FlickrApi flickrApi;
-        bool alwaysDoImageSearch;
 
         List<RichTextBox> richTextBoxes;
         List<RadioButton> imageQualityRadioButtons;
@@ -74,9 +74,9 @@ namespace JapaneseApp
             {
                 jsonController.nextResult();
                 UpdateText();
-                if (alwaysDoImageSearch)
+                if (onRadioButton.Checked)
                 {
-                    SearchImage(suggestedSearchTextBox.Text);
+                    SearchImage(suggestedSearch);
                 }
             }
         }
@@ -141,33 +141,6 @@ namespace JapaneseApp
 
         #endregion
 
-        #region Suggested Image Search On/Off RadioButtons CheckedChanged
-
-        private void onRadioButton_CheckedChanged(object sender, EventArgs e)
-        {
-            SetAlwaysDoImageSearch();
-        }
-
-        private void offRadioButton_CheckedChanged(object sender, EventArgs e)
-        {
-            SetAlwaysDoImageSearch();
-        }
-
-        public void SetAlwaysDoImageSearch()
-        {
-            if (onRadioButton.Checked == true)
-            {
-                alwaysDoImageSearch = true;
-                SearchImage(suggestedSearchTextBox.Text);
-            }
-            else
-            {
-                alwaysDoImageSearch = false;
-            }
-
-        }
-        #endregion
-
         #endregion
 
         #region Text Changes
@@ -186,6 +159,8 @@ namespace JapaneseApp
             }
         }
 
+        string suggestedSearch = "";
+
         public void UpdateText()
         {
             japaneseTextBox.Text = printJapaneses();
@@ -198,7 +173,7 @@ namespace JapaneseApp
              */
             StringReader strReader = new StringReader(EnglishDefinitionTextBox.Text);
             strReader.ReadLine();
-            suggestedSearchTextBox.Text = strReader.ReadLine();
+            suggestedSearch = strReader.ReadLine();
         }
 
         public string printJapaneses()
@@ -209,6 +184,7 @@ namespace JapaneseApp
         public string printEnglishDefinitions()
         {
             return printList("English Definitions:\n", jsonController.getEnglishDefinitions());
+
         }
 
         public string printList(string baseSting, List<string> list)
