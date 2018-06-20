@@ -96,11 +96,11 @@ namespace JapaneseApp
                 string romaji = getRomaji(reading);
                 if (string.IsNullOrWhiteSpace(kanji))
                 {
-                    return "\t\t" + reading + "\t\t" + romaji;
+                    return "     " + reading + "     " + romaji;
                 }
 
                 //put kanji in front of reading
-                return kanji + "\t\t" + reading + "\t\t" + romaji;
+                return kanji + "     " + reading + "     " + romaji;
             }
             else
             {
@@ -108,14 +108,71 @@ namespace JapaneseApp
             }
         }
 
+        public List<string> getJapaneses()
+        {
+            return getMultiple(numOfJapaneses(), getJapanese);
+        }
+
+        public string[] getJapaneseRow()
+        {
+            string[] strarr = null;
+
+            List <string> words = getWords();
+            List<string> readings = getReadings();
+
+
+
+
+
+            return strarr;
+        }
+
+        public List<string[]> getRows()
+        {
+            List<string[]> rows = new List<string[]>();
+
+
+            List<string> words = getWords();
+            List<string> readings = getReadings();
+            List<string> romajis = getRomajis();
+            List<string> partsOfSpeech = getPartsOfSpeech();
+
+
+            int max = readings.Count;//reading ought to be the most
+
+            //make all the rows
+            for(int i = 0; i < readings.Count; i++)
+            {
+                string[] row = new string[4];
+                rows.Add(row);
+            }
+
+
+            //add kanji, readings, romaji, PartsOfSpeech
+            for (int i = 0; i < readings.Count; i++)
+            {
+                rows[i][0] = i > words.Count ? "" : words[i];
+                rows[i][1] = readings[i];
+                rows[i][2] = romajis[i];
+                rows[i][3] = i > partsOfSpeech.Count ? "" : partsOfSpeech[i];
+            }
+            return rows;
+        }
+
+
+
+
         public string getRomaji(string kana)
         {
             return kanaRomajiConverter.Convert(kana);
         }
 
-        public List<string> getJapaneses()
+        public List<string> getRomajis()
         {
-            return getMultiple(numOfJapaneses(), getJapanese);
+            List<string> readings = getReadings();
+            for(int i = 0;i < readings.Count; i++)
+                readings[i] = getRomaji(readings[i]);
+            return readings;
         }
 
         #endregion
@@ -136,6 +193,8 @@ namespace JapaneseApp
         }
         #endregion
 
+        #region Seneses
+
         #region English definitions
 
         public string getEnglishDefiniton(int sensesIndex, int englishDefinitionsIndex)
@@ -154,6 +213,47 @@ namespace JapaneseApp
             }
             return definitions;
         }
+
+        #endregion
+
+        #region partsOfSpeech
+
+        public string getPartOfSpeech(int sensesIndex, int partOfSpeechIndex)
+        {
+            string result = json.data[currentResult].senses[sensesIndex].parts_of_speech[partOfSpeechIndex];
+            if (result.Equals("Wikipedia definition"))//jisho api has some of this nonsense ignore it; Wikipedia definition should not be a part of speech
+                return "";
+            return result;
+        }
+
+        public List<string> getPartsOfSpeech()
+        {
+            List<string> partsOfSpeech = new List<string>();
+            for (int j = 0; j < numOfSenses(); j++)
+            {
+                for (int i = 0; i < numOfPartsOfSpeech(j); i++)
+                    partsOfSpeech.Add(getPartOfSpeech(j, i));
+
+            }
+            return partsOfSpeech;
+        }
+
+
+        public List<string> getJapaneseWithPartOfSpeech()
+        {
+            List<string> pos = getPartsOfSpeech();
+            List<string> japaneses = getJapaneses();
+
+            for(int i = 0; i < numOfJapaneses(); i++)
+            {
+                if (i >= pos.Count) break;
+                japaneses[i] = japaneses[i] + "     " + pos[i];
+            }
+
+            return japaneses;
+        }
+
+        #endregion
 
         #endregion
 
@@ -183,6 +283,11 @@ namespace JapaneseApp
         public int numOfDefinitions(int senseIndex)
         {
             return json.data[currentResult].senses[senseIndex].english_definitions.Count;
+        }
+
+        public int numOfPartsOfSpeech(int senseIndex)
+        {
+            return json.data[currentResult].senses[senseIndex].parts_of_speech.Count;
         }
 
         public int numOfResults()

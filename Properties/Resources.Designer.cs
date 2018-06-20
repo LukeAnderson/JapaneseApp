@@ -63,9 +63,9 @@ namespace JapaneseApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap JapaneseAppVer1_1 {
+        internal static System.Drawing.Bitmap Japanese_App_Ver_1_2 {
             get {
-                object obj = ResourceManager.GetObject("JapaneseAppVer1.1", resourceCulture);
+                object obj = ResourceManager.GetObject("Japanese App Ver 1.2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

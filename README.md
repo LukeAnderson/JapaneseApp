@@ -44,7 +44,7 @@ Newtonsoft.Json [Json.NET](https://www.newtonsoft.com/json) JSON framework used 
 
 * Suggested search removed from UI and put into the MenuStrip. 
 * ~~Romanization option for those who can not read the Japanese Kana~~ (Romaji Added in Ver 1.1)
-* Part of spech information added. E.g noun,verb.
+* ~~Part of spech information added. E.g noun,verb.~~ (Part of speech Added in Ver 1.2)
 * Sentences for both English and Japanese. 
 * Audio addition.
 * Put in UI elements for creating a flashcard in place of suggested search. 

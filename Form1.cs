@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Windows.Forms;
-using KanaConverterLib;
 
 namespace JapaneseApp
 {
@@ -101,7 +99,9 @@ namespace JapaneseApp
         {
             FontDialog fd = new FontDialog();
             fd.ShowDialog();
-            japaneseTextBox.Font = fd.Font;
+          //  japaneseTextBox.Font = fd.Font;
+            dataGridView1.Font = fd.Font;
+
         }
 
         #endregion
@@ -163,7 +163,22 @@ namespace JapaneseApp
 
         public void UpdateText()
         {
-            japaneseTextBox.Text = printJapaneses();
+            dataGridView1.Rows.Clear();
+
+            List<string[]> rows = jsonController.getRows();
+            foreach (string[] row in rows)
+                dataGridView1.Rows.Add(row);
+
+
+           for(int colIndex = 0; dataGridView1.CurrentCell.Value == null; colIndex++)
+            { 
+                if (colIndex == 4)
+                    throw new InvalidDataException();
+                dataGridView1.CurrentCell = dataGridView1[++colIndex, 0];
+            }
+            EnhanceTextBox.Text = dataGridView1.CurrentCell.Value.ToString();
+
+            japaneseTextBox.Text = printJapanesesWithPartsOfSpeech();
             EnglishDefinitionTextBox.Text = printEnglishDefinitions();
 
             /*
@@ -183,9 +198,15 @@ namespace JapaneseApp
 
         public string printEnglishDefinitions()
         {
-            return printList("English Definitions:\n", jsonController.getEnglishDefinitions());
-
+            return printList("English Words:\n", jsonController.getEnglishDefinitions());
         }
+
+        public string printJapanesesWithPartsOfSpeech()
+        {
+            return printList("Japanese Words:\n", jsonController.getJapaneseWithPartOfSpeech());
+        }
+
+
 
         public string printList(string baseSting, List<string> list)
         {
@@ -222,5 +243,11 @@ namespace JapaneseApp
             }
         }
         #endregion
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if(dataGridView1.CurrentCell != null && dataGridView1.CurrentCell.Value != null)
+                EnhanceTextBox.Text = dataGridView1.CurrentCell.Value.ToString();
+        }
     }
 }
