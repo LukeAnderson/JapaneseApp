@@ -51,3 +51,12 @@ Newtonsoft.Json [Json.NET](https://www.newtonsoft.com/json) JSON framework used 
 * Create an [Anki](https://github.com/dae/anki) flashcard with everything.
 * Options for using a different search engine besides Flickr for images. E.g. Google, Bing
 * General UI improvments
+
+#### Example Searches
+Search for Mountain get the following:
+
+![Mountain Example 1](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/MountainExample1.png")
+
+Hit next and get the next result:
+
+![Mountain Example 1](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/MountainExample2.png")

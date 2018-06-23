@@ -151,10 +151,10 @@ namespace JapaneseApp
             //add kanji, readings, romaji, PartsOfSpeech
             for (int i = 0; i < readings.Count; i++)
             {
-                rows[i][0] = i > words.Count ? "" : words[i];
+                rows[i][0] = i >= words.Count ? "" : words[i];
                 rows[i][1] = readings[i];
                 rows[i][2] = romajis[i];
-                rows[i][3] = i > partsOfSpeech.Count ? "" : partsOfSpeech[i];
+                rows[i][3] = i >= partsOfSpeech.Count ? "" : partsOfSpeech[i];
             }
             return rows;
         }
