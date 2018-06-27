@@ -43,12 +43,10 @@
             this.searchButton = new System.Windows.Forms.Button();
             this.searchTextbox = new System.Windows.Forms.RichTextBox();
             this.nextButton = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanelEnglishWordsAndEnhance = new System.Windows.Forms.TableLayoutPanel();
             this.EnglishDefinitionTextBox = new System.Windows.Forms.RichTextBox();
             this.EnhanceTextBox = new System.Windows.Forms.RichTextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.TableLayoutBottomLeft = new System.Windows.Forms.TableLayoutPanel();
             this.ImageQualityTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.mediumRadioButton = new System.Windows.Forms.RadioButton();
@@ -72,15 +70,16 @@
             this.fontToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.englishDefinitionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.japaneseDefinitionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.searchPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
             this.tableLayoutPanelEnglishWordsAndEnhance.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.TableLayoutBottomLeft.SuspendLayout();
             this.ImageQualityTableLayoutPanel.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
@@ -90,6 +89,8 @@
             this.TableSuggestedSeach.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -270,18 +271,6 @@
             this.nextButton.UseVisualStyleBackColor = true;
             this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Image = global::JapaneseApp.Properties.Resources.JapaneseFlag;
-            this.pictureBox2.Location = new System.Drawing.Point(656, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(153, 97);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
-            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.tableLayoutPanelEnglishWordsAndEnhance);
@@ -333,18 +322,6 @@
             this.EnhanceTextBox.TabIndex = 6;
             this.EnhanceTextBox.Text = "";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::JapaneseApp.Properties.Resources.Japanese_App_Ver_1_2;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(812, 280);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(633, 271);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            // 
             // TableLayoutBottomLeft
             // 
             this.TableLayoutBottomLeft.ColumnCount = 2;
@@ -369,6 +346,7 @@
             this.ImageQualityTableLayoutPanel.Controls.Add(this.thumbnailRadioButton, 0, 2);
             this.ImageQualityTableLayoutPanel.Controls.Add(this.smallRadioButton, 0, 3);
             this.ImageQualityTableLayoutPanel.Controls.Add(this.label2, 0, 1);
+            this.ImageQualityTableLayoutPanel.Controls.Add(this.button1, 0, 5);
             this.ImageQualityTableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ImageQualityTableLayoutPanel.Location = new System.Drawing.Point(577, 3);
             this.ImageQualityTableLayoutPanel.Name = "ImageQualityTableLayoutPanel";
@@ -469,7 +447,7 @@
             this.searchAndButtonTableLayout.ColumnCount = 3;
             this.searchAndButtonTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.81818F));
             this.searchAndButtonTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.18182F));
-            this.searchAndButtonTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.searchAndButtonTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 28F));
             this.searchAndButtonTableLayout.Controls.Add(this.flickrImageSearchButton, 0, 0);
             this.searchAndButtonTableLayout.Controls.Add(this.imageTagSearchBox, 0, 0);
             this.searchAndButtonTableLayout.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -485,9 +463,9 @@
             // 
             this.flickrImageSearchButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flickrImageSearchButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flickrImageSearchButton.Location = new System.Drawing.Point(396, 3);
+            this.flickrImageSearchButton.Location = new System.Drawing.Point(395, 3);
             this.flickrImageSearchButton.Name = "flickrImageSearchButton";
-            this.flickrImageSearchButton.Size = new System.Drawing.Size(148, 80);
+            this.flickrImageSearchButton.Size = new System.Drawing.Size(147, 80);
             this.flickrImageSearchButton.TabIndex = 3;
             this.flickrImageSearchButton.Text = "Searc h";
             this.flickrImageSearchButton.UseVisualStyleBackColor = true;
@@ -499,7 +477,7 @@
             this.imageTagSearchBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.imageTagSearchBox.Location = new System.Drawing.Point(3, 3);
             this.imageTagSearchBox.Name = "imageTagSearchBox";
-            this.imageTagSearchBox.Size = new System.Drawing.Size(387, 80);
+            this.imageTagSearchBox.Size = new System.Drawing.Size(386, 80);
             this.imageTagSearchBox.TabIndex = 2;
             this.imageTagSearchBox.Text = "";
             // 
@@ -640,6 +618,41 @@
             this.japaneseDefinitionToolStripMenuItem.Text = "Japanese Definition";
             this.japaneseDefinitionToolStripMenuItem.Click += new System.EventHandler(this.japaneseDefinitionToolStripMenuItem_Click);
             // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.Location = new System.Drawing.Point(3, 178);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(223, 90);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Jappanese Resources";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = global::JapaneseApp.Properties.Resources.JapaneseFlag;
+            this.pictureBox2.Location = new System.Drawing.Point(656, 0);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(153, 97);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::JapaneseApp.Properties.Resources.Japanese_App_Ver_1_2;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Location = new System.Drawing.Point(812, 280);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(633, 271);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -657,10 +670,8 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.searchPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.tableLayoutPanelEnglishWordsAndEnhance.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.TableLayoutBottomLeft.ResumeLayout(false);
             this.ImageQualityTableLayoutPanel.ResumeLayout(false);
             this.ImageQualityTableLayoutPanel.PerformLayout();
@@ -675,6 +686,8 @@
             this.tableLayoutPanel3.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -723,6 +736,7 @@
         private System.Windows.Forms.RichTextBox EnhanceTextBox;
         private System.Windows.Forms.RichTextBox EnglishDefinitionTextBox;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanelEnglishWordsAndEnhance;
+        private System.Windows.Forms.Button button1;
     }
 }
 

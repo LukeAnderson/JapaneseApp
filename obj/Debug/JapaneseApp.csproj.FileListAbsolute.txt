@@ -54,5 +54,5 @@ C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\bin\Debug\FlickrNet.dll
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.csproj.CopyComplete
-C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\bin\Debug\KanaConverterLib.dll
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\bin\Debug\KanaConverterLib.pdb
+C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.Form2.resources

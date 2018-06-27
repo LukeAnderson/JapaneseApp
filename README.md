@@ -55,8 +55,8 @@ Newtonsoft.Json [Json.NET](https://www.newtonsoft.com/json) JSON framework used 
 #### Example Searches
 Search for Mountain get the following:
 
-![Mountain Example 1](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/MountainExample1.png")
+![Mountain Example 1](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/MountainExample1.png)
 
 Hit next and get the next result:
 
-![Mountain Example 1](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/MountainExample2.png")
+![Mountain Example 2](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/MountainExample2.png)

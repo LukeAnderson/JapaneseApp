@@ -249,5 +249,12 @@ namespace JapaneseApp
             if(dataGridView1.CurrentCell != null && dataGridView1.CurrentCell.Value != null)
                 EnhanceTextBox.Text = dataGridView1.CurrentCell.Value.ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 f2 = new Form2(this);
+            f2.Show();
+        }
     }
 }
