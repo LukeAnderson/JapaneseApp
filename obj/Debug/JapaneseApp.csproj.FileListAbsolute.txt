@@ -41,7 +41,6 @@ C:\Users\Luke\Desktop\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.csproj.Copy
 C:\Users\Luke\Desktop\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.exe
 C:\Users\Luke\Desktop\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.pdb
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.csprojAssemblyReference.cache
-C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.Form1.resources
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.Properties.Resources.resources
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.csproj.GenerateResource.cache
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.csproj.CoreCompileInputs.cache
@@ -56,3 +55,4 @@ C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\bin\Debug\Newtonsoft.Jso
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.csproj.CopyComplete
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\bin\Debug\KanaConverterLib.pdb
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.Form2.resources
+C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.WordSearchForm.resources

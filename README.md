@@ -7,9 +7,9 @@ It is an application to assist those studying Japanese.
 
 #### What Can You Do With It
 Search with English or Japanese words and be provided with the word in Japanese and English.
-<br>
 An image of the searched term will also be shown. 
 <br>
+Also study various Japanese learning resources.
 
 #### How Do You Use It
 
@@ -50,13 +50,22 @@ Newtonsoft.Json [Json.NET](https://www.newtonsoft.com/json) JSON framework used 
 * Put in UI elements for creating a flashcard in place of suggested search. 
 * Create an [Anki](https://github.com/dae/anki) flashcard with everything.
 * Options for using a different search engine besides Flickr for images. E.g. Google, Bing
-* General UI improvments
+* General UI improvments (Version 1.3 improved UI significantly)
 
 #### Example Searches
 Search for Mountain get the following:
 
-![Mountain Example 1](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/MountainExample1.png)
+![Cat Example 1](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/catExample1.png)
 
-Hit next and get the next result:
+Click the menuitem 'Sidebar' to have the sidebar hide/show.
 
-![Mountain Example 2](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/MountainExample2.png)
+Click next and get the next result:
+
+![Cat Example 2](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/catExample2.png)
+
+
+DJT guide added in version 1.3: Links to [djtguide](https://djtguide.neocities.org/)
+
+![DJT Guide Example](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/djtGuideExample.png)
+
+Future versions will link additional Japanese learning resources.

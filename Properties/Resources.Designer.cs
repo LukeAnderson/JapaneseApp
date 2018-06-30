@@ -63,9 +63,39 @@ namespace JapaneseApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Japanese_App_Ver_1_2 {
+        internal static System.Drawing.Bitmap catExample1 {
             get {
-                object obj = ResourceManager.GetObject("Japanese App Ver 1.2", resourceCulture);
+                object obj = ResourceManager.GetObject("catExample1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap catExample2 {
+            get {
+                object obj = ResourceManager.GetObject("catExample2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap djtGuideExample {
+            get {
+                object obj = ResourceManager.GetObject("djtGuideExample", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Japanese_App_Version_1_3 {
+            get {
+                object obj = ResourceManager.GetObject("Japanese_App_Version_1_3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -76,26 +106,6 @@ namespace JapaneseApp.Properties {
         internal static System.Drawing.Bitmap JapaneseFlag {
             get {
                 object obj = ResourceManager.GetObject("JapaneseFlag", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap MountainExample1 {
-            get {
-                object obj = ResourceManager.GetObject("MountainExample1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap MountainExample2 {
-            get {
-                object obj = ResourceManager.GetObject("MountainExample2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

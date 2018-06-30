@@ -64,16 +64,16 @@
     </Compile>
     <Compile Include="Json\JsonController.cs" />
     <Compile Include="Json\JsonClasses.cs" />
-    <Compile Include="Forms\Form1.cs">
+    <Compile Include="Forms\WordSearchForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forms\WordSearchForm.Designer.cs">
+      <DependentUpon>WordSearchForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\WordSearchForm.resx">
+      <DependentUpon>WordSearchForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form2.resx">
@@ -112,13 +112,16 @@
     <None Include="Resources\No_image_available.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Japanese App Ver 1.2.png" />
+    <None Include="Resources\catExample1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\MountainExample1.png" />
+    <None Include="Resources\catExample2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\MountainExample2.png" />
+    <None Include="Resources\djtGuideExample.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Japanese App Version 1.3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
