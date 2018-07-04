@@ -54,5 +54,9 @@ C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\bin\Debug\Newtonsoft.Jso
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.csproj.CopyComplete
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\bin\Debug\KanaConverterLib.pdb
-C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.Form2.resources
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.WordSearchForm.resources
+C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.UserControls.WordSearchOldVersion.resources
+C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.UserControls.JappaneseAppFlickrImage.resources
+C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.FlickrImageSearch.resources
+C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.UserControls.JishoDataGridView.resources
+C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.UserControls.JishoSearch.resources

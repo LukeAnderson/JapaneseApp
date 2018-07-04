@@ -124,16 +124,13 @@
   <data name="JapaneseFlag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JapaneseFlag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="catExample1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\catExample1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="catExample2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\catExample2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="djtGuideExample" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\djtGuideExample.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Japanese_App_Version_1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Japanese App Version 1.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dogExample" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dogExample.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JapaneseAppVersion1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JapaneseAppVersion1.4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

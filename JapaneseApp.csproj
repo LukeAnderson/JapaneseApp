@@ -55,12 +55,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FlickrApi.cs" />
-    <Compile Include="Forms\FormManager.cs" />
-    <Compile Include="Forms\Form2.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="UserControls\FlickrImageSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\FlickrImageSearch.Designer.cs">
+      <DependentUpon>FlickrImageSearch.cs</DependentUpon>
     </Compile>
     <Compile Include="Json\JsonController.cs" />
     <Compile Include="Json\JsonClasses.cs" />
@@ -72,17 +76,53 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\JappaneseAppFlickrImage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\JappaneseAppFlickrImage.Designer.cs">
+      <DependentUpon>JappaneseAppFlickrImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\JishoDataGridView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\JishoDataGridView.Designer.cs">
+      <DependentUpon>JishoDataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\JishoSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\JishoSearch.Designer.cs">
+      <DependentUpon>JishoSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\WordSearchOldVersion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\WordSearchOldVersion.Designer.cs">
+      <DependentUpon>WordSearchOldVersion.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UserControls\FlickrImageSearch.resx">
+      <DependentUpon>FlickrImageSearch.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\WordSearchForm.resx">
       <DependentUpon>WordSearchForm.cs</DependentUpon>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\JappaneseAppFlickrImage.resx">
+      <DependentUpon>JappaneseAppFlickrImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\JishoDataGridView.resx">
+      <DependentUpon>JishoDataGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\JishoSearch.resx">
+      <DependentUpon>JishoSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\WordSearchOldVersion.resx">
+      <DependentUpon>WordSearchOldVersion.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Ω Changelog.md" />
     <None Include="packages.config" />
@@ -90,11 +130,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -112,16 +147,13 @@
     <None Include="Resources\No_image_available.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\catExample1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\catExample2.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\djtGuideExample.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Japanese App Version 1.3.png" />
+    <None Include="Resources\dogExample.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JapaneseAppVersion1.4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

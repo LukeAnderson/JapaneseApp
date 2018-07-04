@@ -1,5 +1,4 @@
-﻿using JapaneseApp.Forms;
-using System;
+﻿using System;
 using System.Windows.Forms;
 
 namespace JapaneseApp
@@ -17,9 +16,8 @@ namespace JapaneseApp
             Application.SetCompatibleTextRenderingDefault(false);
 
             //making  the starting form hidden by doing this.
-            FormManager form = new FormManager();
-            
-            Application.Run();
+
+            Application.Run(new WordSearchForm());
         }
     }
 }

@@ -26,3 +26,7 @@
 **Added Feature:** Custom sidebar; Has buttons to lead to additional resources. User can hide/show the sidebar. Sidebar buttons provide pagination for the app.
 <br>
 **Added Resource:** [djtguide](https://djtguide.neocities.org/) A resource to help those starting to learn Japanese.
+
+#### Version 1.4
+**UI improvement:** User controls made for major components making UI eaiser to manage.
+**Code Maintenance:** Lots of maintenance to make code easier to read and to add more features in the future.

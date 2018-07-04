@@ -53,16 +53,9 @@ Newtonsoft.Json [Json.NET](https://www.newtonsoft.com/json) JSON framework used 
 * General UI improvments (Version 1.3 improved UI significantly)
 
 #### Example Searches
-Search for Mountain get the following:
+Search for dog get the following with clicking next getting the next result.
 
-![Cat Example 1](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/catExample1.png)
-
-Click the menuitem 'Sidebar' to have the sidebar hide/show.
-
-Click next and get the next result:
-
-![Cat Example 2](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/catExample2.png)
-
+![dogExample.png](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/dogExample.png)
 
 DJT guide added in version 1.3: Links to [djtguide](https://djtguide.neocities.org/)
 
