@@ -55,7 +55,13 @@ Newtonsoft.Json [Json.NET](https://www.newtonsoft.com/json) JSON framework used 
 #### Example Searches
 Search for dog get the following with clicking next getting the next result.
 
-![dogExample.png](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/dogExample.png)
+![dogExample1.png](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/dogExample1.png)
+
+with clicking next getting the next result:
+
+![dogExample2.png](https://github.com/LukeAnderson/JapaneseApp/raw/master/Resources/dogExample2.png)
+
+
 
 DJT guide added in version 1.3: Links to [djtguide](https://djtguide.neocities.org/)
 

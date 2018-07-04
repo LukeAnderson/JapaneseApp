@@ -73,9 +73,19 @@ namespace JapaneseApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dogExample {
+        internal static System.Drawing.Bitmap dogExample1 {
             get {
-                object obj = ResourceManager.GetObject("dogExample", resourceCulture);
+                object obj = ResourceManager.GetObject("dogExample1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dogExample2 {
+            get {
+                object obj = ResourceManager.GetObject("dogExample2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

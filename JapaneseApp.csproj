@@ -150,10 +150,13 @@
     <None Include="Resources\djtGuideExample.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\dogExample.png" />
+    <None Include="Resources\JapaneseAppVersion1.4.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\JapaneseAppVersion1.4.png" />
+    <None Include="Resources\dogExample1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dogExample2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
