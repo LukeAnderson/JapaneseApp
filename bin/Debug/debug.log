@@ -1,0 +1,155 @@
+[0706/212807.567:ERROR:browser_gpu_channel_host_factory.cc(107)] Failed to launch GPU process.
+[0706/212850.568:ERROR:browser_gpu_channel_host_factory.cc(107)] Failed to launch GPU process.
+[0706/213002.888:ERROR:browser_gpu_channel_host_factory.cc(107)] Failed to launch GPU process.
+[0706/213831.308:ERROR:browser_gpu_channel_host_factory.cc(107)] Failed to launch GPU process.
+[0706/213930.214:ERROR:browser_gpu_channel_host_factory.cc(107)] Failed to launch GPU process.
+[0706/214154.675:ERROR:browser_gpu_channel_host_factory.cc(107)] Failed to launch GPU process.
+[0706/214434.511:ERROR:browser_gpu_channel_host_factory.cc(107)] Failed to launch GPU process.
+[0706/214803.495:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/214943.807:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/214943.819:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/214943.827:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/214943.842:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/214943.873:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/215043.567:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 29
+[0706/215109.021:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/215109.028:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/215109.035:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/215109.049:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/215120.746:WARNING:angle_platform_impl.cc(51)] rx::HLSLCompiler::compileToBinary(228): 
+C:\fakepath(71,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(94,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0706/215434.156:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/215434.168:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/215434.197:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/215434.208:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/215434.218:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/215801.835:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/215801.845:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/215801.874:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/220701.384:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/220701.402:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/220701.415:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/220701.443:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/220701.449:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230403.005:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230403.013:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230403.019:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230403.033:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230403.053:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230403.098:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230403.104:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230403.112:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230403.119:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230403.128:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230557.273:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230557.283:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230557.302:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230557.340:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230557.347:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230557.354:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230557.360:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230557.366:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230805.158:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230805.165:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230805.172:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230805.187:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230805.206:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230805.244:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230805.251:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230805.257:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230805.265:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230805.271:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/230815.672:INFO:CONSOLE(14)] "Uncaught TypeError: Cannot set property 'src' of null", source: https://djtguide.neocities.org/assets/script.js?3 (14)
+[0706/231149.100:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/231149.107:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/231149.114:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/231149.130:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/231149.150:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/231149.191:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/231149.198:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/231149.205:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/231149.213:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/231149.220:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0706/231152.594:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0706/231225.359:ERROR:shader_disk_cache.cc(238)] Failed to create shader cache entry: -2
+[0706/231225.602:ERROR:shader_disk_cache.cc(238)] Failed to create shader cache entry: -2
+[0706/231235.041:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 17
+[0706/231235.973:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 19
+[0706/231235.973:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 21
+[0706/231239.248:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 25
+[0706/231242.759:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 29
+[0706/231243.960:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 31
+[0706/231244.839:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 33
+[0706/231244.840:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 35
+[0708/065952.093:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/065952.113:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/065952.127:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/065952.156:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/065952.201:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/065952.210:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/065952.217:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/065952.226:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/065952.238:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071830.339:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071830.351:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071830.359:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071830.377:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071830.406:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071830.464:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071830.474:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071830.486:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071830.509:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071836.260:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0708/071944.388:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071944.395:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071944.405:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071944.425:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071944.453:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071944.507:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071944.517:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071944.530:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071944.544:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071944.553:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/071950.225:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0708/075332.796:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075332.825:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075332.890:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075332.903:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075332.912:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075332.921:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075332.935:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075459.823:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075459.834:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075459.845:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075459.865:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075459.896:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075459.961:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075459.993:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075500.004:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075506.455:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0708/075623.874:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075623.886:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075623.898:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075623.917:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075623.950:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075624.013:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075624.025:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075624.037:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075624.050:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/075624.058:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/081527.657:ERROR:browser_gpu_channel_host_factory.cc(107)] Failed to launch GPU process.
+[0708/192636.052:ERROR:shader_disk_cache.cc(238)] Failed to create shader cache entry: -2
+[0708/194502.773:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0708/202330.734:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0708/202341.821:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0708/202527.133:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0708/202555.504:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0708/202639.472:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0708/203247.238:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0708/204252.413:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0708/204640.575:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0708/204734.954:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.
+[0708/205019.913:WARNING:spdy_session.cc(2914)] Received HEADERS for invalid stream 7
+[0708/205713.438:WARNING:dns_config_service_win.cc(669)] Failed to read DnsConfig.

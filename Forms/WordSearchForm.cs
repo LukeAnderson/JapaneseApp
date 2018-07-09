@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
+using CefSharp;
+using CefSharp.WinForms;
+using JapaneseApp.UserControls;
 
 namespace JapaneseApp
 {
@@ -19,7 +22,13 @@ namespace JapaneseApp
         private string suggestedSearch;
 
 
-        WebBrowser page2;
+
+        private CefSharpBrowser cefBrowser;
+        private ChromiumWebBrowser chromeBrowser;
+
+
+        private Dictionary<Button, Control> sidebarButtonsAndPages;
+
 
         public WordSearchForm()
         {
@@ -27,6 +36,7 @@ namespace JapaneseApp
 
             flickrApi = new FlickrApi();
 
+     
             //put all of the RichTextboxes into a list
             richTextBoxes = new List<RichTextBox>();
             richTextBoxes.AddRange(Controls.OfType<RichTextBox>());
@@ -35,17 +45,18 @@ namespace JapaneseApp
             flickrImageSearch.SearchButtonPressed += new EventHandler(OnFlickrImageSearchButton_Click);
             jishoSearch.SearchButtonPressed += new EventHandler(searchButton_Click);
             jishoSearch.NextButtonPressed += new EventHandler(nextButton_Click);
+            sideBar1.buttonClicked += new EventHandler(sidebarButton_Click);
 
             //subscribe to dataGridView changedCell
             jishoDataGridView.changedCell += new EventHandler(OnJishoDataGridViewChangedCell);
 
+            //make browser
+            cefBrowser = new CefSharpBrowser();
+            cefBrowser.Dock = DockStyle.Fill;
+            chromeBrowser = cefBrowser.chromeBrowser;
+            pagePanel.Controls.Add(cefBrowser);
 
-
-            //make other pages add them to the page panel
-            page2 = new WebBrowser();
-            page2.Dock = DockStyle.Fill;
-            page2.Url = new System.Uri("https://djtguide.neocities.org/");
-            pagePanel.Controls.Add(page2);
+            setupSidebar();
         }
 
         private void OnJishoDataGridViewChangedCell(object sender, EventArgs e)
@@ -168,24 +179,32 @@ namespace JapaneseApp
 
 
 
-
-
-        //temporary pagination this will be in its own class eventually
-        private void button1_Click(object sender, EventArgs e)
+        /*pagination*/
+        private void setupSidebar()
         {
-            page1.Visible = true;
-            page2.Visible = false;
-
-            fontToolStripMenuItem.Visible = true;
+            sidebarButtonsAndPages = new Dictionary<Button, Control>();
+            for (int i = 0; i < sideBar1.sidebar.Controls.Count; i++)
+            {
+                sidebarButtonsAndPages.Add((Button)sideBar1.sidebar.Controls[i], pagePanel.Controls[i]);
+            }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void sidebarButton_Click(object sender, EventArgs e)
         {
-            page2.Visible = true;
-            page1.Visible = false;
+            Control pageToMakeVisible = sidebarButtonsAndPages[sideBar1.previousButton];//last button that was pressed
+            Control pageToMakeInvisible = sidebarButtonsAndPages[sideBar1.currentButton];//current button that was pressed
 
-            fontToolStripMenuItem.Visible = false;
+            if (pageToMakeVisible == pageToMakeInvisible) return;
+
+            //EnglishDefinitionTextBox.Text = "visible: " + pageToMakeVisible.Name + "\ninvisible: " + pageToMakeInvisible.Name;
+            pageToMakeVisible.Visible = true;
+            pageToMakeInvisible.Visible = false;
         }
 
+
+        private void OnFormClosing(object sender, FormClosingEventArgs e)
+        {
+            cefBrowser.Close();
+        }
     }
 }

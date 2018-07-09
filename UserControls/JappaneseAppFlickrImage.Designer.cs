@@ -28,16 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JappaneseAppFlickrImage));
             this.backTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox = new System.Windows.Forms.PictureBox();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.imageQualityTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.mediumRadioButton = new System.Windows.Forms.RadioButton();
             this.smallRadioButton = new System.Windows.Forms.RadioButton();
             this.thumbnailRadioButton = new System.Windows.Forms.RadioButton();
             this.ImageQualityLabel = new System.Windows.Forms.Label();
             this.backTableLayoutPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.imageQualityTableLayoutPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // backTableLayoutPanel
@@ -47,7 +48,7 @@
             this.backTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.41463F));
             this.backTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 81.58537F));
             this.backTableLayoutPanel.Controls.Add(this.pictureBox, 1, 0);
-            this.backTableLayoutPanel.Controls.Add(this.tableLayoutPanel1, 0, 0);
+            this.backTableLayoutPanel.Controls.Add(this.imageQualityTableLayoutPanel, 0, 0);
             this.backTableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.backTableLayoutPanel.Location = new System.Drawing.Point(0, 0);
             this.backTableLayoutPanel.Name = "backTableLayoutPanel";
@@ -67,62 +68,83 @@
             this.pictureBox.TabIndex = 1;
             this.pictureBox.TabStop = false;
             // 
-            // tableLayoutPanel1
+            // imageQualityTableLayoutPanel
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Controls.Add(this.mediumRadioButton, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.smallRadioButton, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.thumbnailRadioButton, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.ImageQualityLabel, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 381);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(144, 107);
-            this.tableLayoutPanel1.TabIndex = 2;
+            this.imageQualityTableLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.imageQualityTableLayoutPanel.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.imageQualityTableLayoutPanel.ColumnCount = 1;
+            this.imageQualityTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.imageQualityTableLayoutPanel.Controls.Add(this.mediumRadioButton, 0, 3);
+            this.imageQualityTableLayoutPanel.Controls.Add(this.smallRadioButton, 0, 2);
+            this.imageQualityTableLayoutPanel.Controls.Add(this.ImageQualityLabel, 0, 0);
+            this.imageQualityTableLayoutPanel.Controls.Add(this.thumbnailRadioButton, 0, 1);
+            this.imageQualityTableLayoutPanel.Location = new System.Drawing.Point(3, 368);
+            this.imageQualityTableLayoutPanel.Name = "imageQualityTableLayoutPanel";
+            this.imageQualityTableLayoutPanel.RowCount = 5;
+            this.imageQualityTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.imageQualityTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.imageQualityTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.imageQualityTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.imageQualityTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.imageQualityTableLayoutPanel.Size = new System.Drawing.Size(144, 120);
+            this.imageQualityTableLayoutPanel.TabIndex = 2;
             // 
             // mediumRadioButton
             // 
+            this.mediumRadioButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.mediumRadioButton.Appearance = System.Windows.Forms.Appearance.Button;
             this.mediumRadioButton.AutoSize = true;
+            this.mediumRadioButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("mediumRadioButton.BackgroundImage")));
+            this.mediumRadioButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.mediumRadioButton.Checked = true;
-            this.mediumRadioButton.Location = new System.Drawing.Point(25, 78);
-            this.mediumRadioButton.Margin = new System.Windows.Forms.Padding(25, 3, 3, 3);
+            this.mediumRadioButton.Font = new System.Drawing.Font("Hanzel Extended", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mediumRadioButton.Location = new System.Drawing.Point(42, 93);
+            this.mediumRadioButton.MaximumSize = new System.Drawing.Size(60, 0);
+            this.mediumRadioButton.MinimumSize = new System.Drawing.Size(60, 0);
             this.mediumRadioButton.Name = "mediumRadioButton";
-            this.mediumRadioButton.Size = new System.Drawing.Size(52, 17);
+            this.mediumRadioButton.Size = new System.Drawing.Size(60, 24);
             this.mediumRadioButton.TabIndex = 4;
             this.mediumRadioButton.TabStop = true;
-            this.mediumRadioButton.Text = "Large";
+            this.mediumRadioButton.Text = "HQ";
+            this.mediumRadioButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.mediumRadioButton.UseVisualStyleBackColor = true;
             // 
             // smallRadioButton
             // 
+            this.smallRadioButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.smallRadioButton.Appearance = System.Windows.Forms.Appearance.Button;
             this.smallRadioButton.AutoSize = true;
-            this.smallRadioButton.Location = new System.Drawing.Point(25, 53);
-            this.smallRadioButton.Margin = new System.Windows.Forms.Padding(25, 3, 3, 3);
+            this.smallRadioButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("smallRadioButton.BackgroundImage")));
+            this.smallRadioButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.smallRadioButton.Font = new System.Drawing.Font("Hanzel Extended", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.smallRadioButton.Location = new System.Drawing.Point(42, 63);
+            this.smallRadioButton.MaximumSize = new System.Drawing.Size(60, 0);
+            this.smallRadioButton.MinimumSize = new System.Drawing.Size(60, 0);
             this.smallRadioButton.Name = "smallRadioButton";
-            this.smallRadioButton.Size = new System.Drawing.Size(50, 17);
+            this.smallRadioButton.Size = new System.Drawing.Size(60, 24);
             this.smallRadioButton.TabIndex = 3;
             this.smallRadioButton.TabStop = true;
-            this.smallRadioButton.Text = "Small";
+            this.smallRadioButton.Text = "MQ";
+            this.smallRadioButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.smallRadioButton.UseVisualStyleBackColor = true;
             // 
             // thumbnailRadioButton
             // 
+            this.thumbnailRadioButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.thumbnailRadioButton.Appearance = System.Windows.Forms.Appearance.Button;
             this.thumbnailRadioButton.AutoSize = true;
-            this.thumbnailRadioButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.thumbnailRadioButton.Location = new System.Drawing.Point(25, 28);
-            this.thumbnailRadioButton.Margin = new System.Windows.Forms.Padding(25, 3, 3, 3);
+            this.thumbnailRadioButton.BackgroundImage = global::JapaneseApp.Properties.Resources.JapaneseAppVersion1_4;
+            this.thumbnailRadioButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.thumbnailRadioButton.Font = new System.Drawing.Font("Hanzel Extended", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.thumbnailRadioButton.Location = new System.Drawing.Point(42, 33);
+            this.thumbnailRadioButton.MaximumSize = new System.Drawing.Size(60, 0);
+            this.thumbnailRadioButton.MinimumSize = new System.Drawing.Size(60, 0);
             this.thumbnailRadioButton.Name = "thumbnailRadioButton";
-            this.thumbnailRadioButton.Size = new System.Drawing.Size(116, 19);
+            this.thumbnailRadioButton.Size = new System.Drawing.Size(60, 24);
             this.thumbnailRadioButton.TabIndex = 0;
             this.thumbnailRadioButton.TabStop = true;
-            this.thumbnailRadioButton.Text = "Thumbnail";
+            this.thumbnailRadioButton.Text = "LQ";
+            this.thumbnailRadioButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.thumbnailRadioButton.UseVisualStyleBackColor = true;
             // 
             // ImageQualityLabel
@@ -132,7 +154,7 @@
             this.ImageQualityLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ImageQualityLabel.Location = new System.Drawing.Point(3, 0);
             this.ImageQualityLabel.Name = "ImageQualityLabel";
-            this.ImageQualityLabel.Size = new System.Drawing.Size(138, 25);
+            this.ImageQualityLabel.Size = new System.Drawing.Size(138, 30);
             this.ImageQualityLabel.TabIndex = 1;
             this.ImageQualityLabel.Text = "Image Quality";
             this.ImageQualityLabel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -146,8 +168,8 @@
             this.Size = new System.Drawing.Size(820, 491);
             this.backTableLayoutPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
+            this.imageQualityTableLayoutPanel.ResumeLayout(false);
+            this.imageQualityTableLayoutPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -156,7 +178,7 @@
 
         private System.Windows.Forms.TableLayoutPanel backTableLayoutPanel;
         private System.Windows.Forms.PictureBox pictureBox;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel imageQualityTableLayoutPanel;
         private System.Windows.Forms.RadioButton mediumRadioButton;
         private System.Windows.Forms.RadioButton smallRadioButton;
         private System.Windows.Forms.RadioButton thumbnailRadioButton;

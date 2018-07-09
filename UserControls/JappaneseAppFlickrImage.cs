@@ -17,7 +17,7 @@ namespace JapaneseApp.UserControls
 
             //put all the imageQualityRadioButtons into a list
             imageQualityRadioButtons = new List<RadioButton>();
-            imageQualityRadioButtons.AddRange(tableLayoutPanel1.Controls.OfType<RadioButton>());
+            imageQualityRadioButtons.AddRange(imageQualityTableLayoutPanel.Controls.OfType<RadioButton>());
         }
 
         public void SearchImage(string searchText)
@@ -35,6 +35,5 @@ namespace JapaneseApp.UserControls
                 pictureBox.Load();
             }
         }
-
     }
 }

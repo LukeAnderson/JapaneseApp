@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JapaneseApp.Forms;
+using System;
 using System.Windows.Forms;
 
 namespace JapaneseApp
@@ -18,6 +19,8 @@ namespace JapaneseApp
             //making  the starting form hidden by doing this.
 
             Application.Run(new WordSearchForm());
+
+           // Application.Run(new Form1());
         }
     }
 }
