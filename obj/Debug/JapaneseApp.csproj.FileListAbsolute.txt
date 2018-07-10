@@ -56,7 +56,6 @@ C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.cs
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\bin\Debug\KanaConverterLib.pdb
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.WordSearchForm.resources
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.UserControls.WordSearchOldVersion.resources
-C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.UserControls.JappaneseAppFlickrImage.resources
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.FlickrImageSearch.resources
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.UserControls.JishoDataGridView.resources
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.UserControls.JishoSearch.resources
@@ -229,3 +228,4 @@ C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\bin\Debug\x64\CefSharp.W
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.Forms.Form1.resources
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.UserControls.CefSharpBrowser.resources
 C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.UserControls.SideBar.resources
+C:\Users\Luke\Documents\GitHub\Japanese App\JapaneseApp\obj\Debug\JapaneseApp.UserControls.FlickrImage.resources

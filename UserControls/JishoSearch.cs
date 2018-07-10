@@ -45,5 +45,9 @@ namespace JapaneseApp.UserControls
             searchTextbox.ForeColor = System.Drawing.SystemColors.WindowText;
         }
 
+        private void labelAndBarTableLayoutPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -28,81 +28,99 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.searchPanel = new System.Windows.Forms.TableLayoutPanel();
             this.searchButton = new System.Windows.Forms.Button();
-            this.searchTextbox = new System.Windows.Forms.RichTextBox();
             this.nextButton = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.searchPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.searchTextbox = new System.Windows.Forms.RichTextBox();
+            this.wordSearchLabel = new System.Windows.Forms.Label();
             this.searchPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // searchButton
+            // 
+            this.searchButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.searchButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchButton.Location = new System.Drawing.Point(320, 32);
+            this.searchButton.MaximumSize = new System.Drawing.Size(100, 50);
+            this.searchButton.Name = "searchButton";
+            this.searchButton.Size = new System.Drawing.Size(76, 36);
+            this.searchButton.TabIndex = 4;
+            this.searchButton.Text = "Search";
+            this.searchButton.UseVisualStyleBackColor = true;
+            // 
+            // nextButton
+            // 
+            this.nextButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.nextButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nextButton.Location = new System.Drawing.Point(402, 32);
+            this.nextButton.MaximumSize = new System.Drawing.Size(100, 50);
+            this.nextButton.Name = "nextButton";
+            this.nextButton.Size = new System.Drawing.Size(51, 36);
+            this.nextButton.TabIndex = 5;
+            this.nextButton.Text = "Next";
+            this.nextButton.UseVisualStyleBackColor = true;
             // 
             // searchPanel
             // 
             this.searchPanel.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.searchPanel.ColumnCount = 4;
-            this.searchPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.31847F));
-            this.searchPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.19745F));
-            this.searchPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 13.66248F));
-            this.searchPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.66431F));
-            this.searchPanel.Controls.Add(this.searchButton, 0, 0);
-            this.searchPanel.Controls.Add(this.searchTextbox, 0, 0);
+            this.searchPanel.ColumnCount = 3;
+            this.searchPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.searchPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 82F));
+            this.searchPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 57F));
             this.searchPanel.Controls.Add(this.nextButton, 2, 0);
-            this.searchPanel.Controls.Add(this.pictureBox2, 3, 0);
+            this.searchPanel.Controls.Add(this.searchButton, 1, 0);
+            this.searchPanel.Controls.Add(this.tableLayoutPanel1, 0, 0);
             this.searchPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.searchPanel.Location = new System.Drawing.Point(0, 0);
             this.searchPanel.Margin = new System.Windows.Forms.Padding(0);
             this.searchPanel.Name = "searchPanel";
             this.searchPanel.RowCount = 1;
             this.searchPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.searchPanel.Size = new System.Drawing.Size(628, 169);
+            this.searchPanel.Size = new System.Drawing.Size(456, 71);
             this.searchPanel.TabIndex = 2;
             // 
-            // searchButton
+            // tableLayoutPanel1
             // 
-            this.searchButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchButton.Location = new System.Drawing.Point(319, 3);
-            this.searchButton.Name = "searchButton";
-            this.searchButton.Size = new System.Drawing.Size(102, 163);
-            this.searchButton.TabIndex = 4;
-            this.searchButton.Text = "Search";
-            this.searchButton.UseVisualStyleBackColor = true;
+            this.tableLayoutPanel1.ColumnCount = 1;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.searchTextbox, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.wordSearchLabel, 0, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 45F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(311, 65);
+            this.tableLayoutPanel1.TabIndex = 7;
             // 
             // searchTextbox
             // 
-            this.searchTextbox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.searchTextbox.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.searchTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchTextbox.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.searchTextbox.Location = new System.Drawing.Point(3, 3);
+            this.searchTextbox.Location = new System.Drawing.Point(3, 26);
+            this.searchTextbox.Margin = new System.Windows.Forms.Padding(3, 3, 0, 3);
             this.searchTextbox.Name = "searchTextbox";
-            this.searchTextbox.Size = new System.Drawing.Size(310, 163);
-            this.searchTextbox.TabIndex = 3;
+            this.searchTextbox.Size = new System.Drawing.Size(308, 36);
+            this.searchTextbox.TabIndex = 9;
             this.searchTextbox.Text = "Search Words";
             this.searchTextbox.GotFocus += new System.EventHandler(this.searchTextbox_GotFocus);
             // 
-            // nextButton
+            // wordSearchLabel
             // 
-            this.nextButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.nextButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nextButton.Location = new System.Drawing.Point(427, 3);
-            this.nextButton.Name = "nextButton";
-            this.nextButton.Size = new System.Drawing.Size(79, 163);
-            this.nextButton.TabIndex = 5;
-            this.nextButton.Text = "Next";
-            this.nextButton.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Image = global::JapaneseApp.Properties.Resources.JapaneseFlag;
-            this.pictureBox2.Location = new System.Drawing.Point(509, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(119, 169);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
+            this.wordSearchLabel.AutoSize = true;
+            this.wordSearchLabel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.wordSearchLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordSearchLabel.Location = new System.Drawing.Point(3, 0);
+            this.wordSearchLabel.Name = "wordSearchLabel";
+            this.wordSearchLabel.Size = new System.Drawing.Size(305, 20);
+            this.wordSearchLabel.TabIndex = 0;
+            this.wordSearchLabel.Text = "Word Search";
+            this.wordSearchLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // JishoSearch
             // 
@@ -110,19 +128,21 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.searchPanel);
             this.Name = "JishoSearch";
-            this.Size = new System.Drawing.Size(628, 169);
+            this.Size = new System.Drawing.Size(456, 71);
             this.searchPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TableLayoutPanel searchPanel;
         private System.Windows.Forms.Button searchButton;
-        private System.Windows.Forms.RichTextBox searchTextbox;
         private System.Windows.Forms.Button nextButton;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TableLayoutPanel searchPanel;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.RichTextBox searchTextbox;
+        private System.Windows.Forms.Label wordSearchLabel;
     }
 }

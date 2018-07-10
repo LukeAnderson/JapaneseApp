@@ -48,15 +48,15 @@
             // 
             this.backTableLayoutPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.backTableLayoutPanel.ColumnCount = 1;
-            this.backTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.backTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.backTableLayoutPanel.Controls.Add(this.suggestedImageSearchTableLayoutPanel, 0, 1);
             this.backTableLayoutPanel.Controls.Add(this.topHalfTableLayoutPanel, 0, 0);
             this.backTableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.backTableLayoutPanel.Location = new System.Drawing.Point(0, 0);
             this.backTableLayoutPanel.Name = "backTableLayoutPanel";
             this.backTableLayoutPanel.RowCount = 2;
-            this.backTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.backTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.backTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 75F));
+            this.backTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.backTableLayoutPanel.Size = new System.Drawing.Size(338, 194);
             this.backTableLayoutPanel.TabIndex = 0;
             // 
@@ -68,7 +68,7 @@
             this.suggestedImageSearchTableLayoutPanel.Controls.Add(this.suggestedImageSearchLabel, 0, 0);
             this.suggestedImageSearchTableLayoutPanel.Controls.Add(this.onRadioButton, 0, 1);
             this.suggestedImageSearchTableLayoutPanel.Controls.Add(this.offRadioButton, 0, 2);
-            this.suggestedImageSearchTableLayoutPanel.Location = new System.Drawing.Point(3, 100);
+            this.suggestedImageSearchTableLayoutPanel.Location = new System.Drawing.Point(3, 78);
             this.suggestedImageSearchTableLayoutPanel.Name = "suggestedImageSearchTableLayoutPanel";
             this.suggestedImageSearchTableLayoutPanel.RowCount = 3;
             this.suggestedImageSearchTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33F));
@@ -126,32 +126,32 @@
             this.topHalfTableLayoutPanel.RowCount = 2;
             this.topHalfTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 39.71631F));
             this.topHalfTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60.28369F));
-            this.topHalfTableLayoutPanel.Size = new System.Drawing.Size(332, 91);
+            this.topHalfTableLayoutPanel.Size = new System.Drawing.Size(332, 69);
             this.topHalfTableLayoutPanel.TabIndex = 1;
             // 
             // searchAndButtonTableLayout
             // 
             this.searchAndButtonTableLayout.ColumnCount = 2;
-            this.searchAndButtonTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.81818F));
-            this.searchAndButtonTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.18182F));
-            this.searchAndButtonTableLayout.Controls.Add(this.flickrImageSearchButton, 0, 0);
+            this.searchAndButtonTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.searchAndButtonTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 93F));
             this.searchAndButtonTableLayout.Controls.Add(this.imageSearchRichTextBox, 0, 0);
+            this.searchAndButtonTableLayout.Controls.Add(this.flickrImageSearchButton, 1, 0);
             this.searchAndButtonTableLayout.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchAndButtonTableLayout.Location = new System.Drawing.Point(0, 36);
+            this.searchAndButtonTableLayout.Location = new System.Drawing.Point(0, 27);
             this.searchAndButtonTableLayout.Margin = new System.Windows.Forms.Padding(0);
             this.searchAndButtonTableLayout.Name = "searchAndButtonTableLayout";
             this.searchAndButtonTableLayout.RowCount = 1;
-            this.searchAndButtonTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.searchAndButtonTableLayout.Size = new System.Drawing.Size(332, 55);
+            this.searchAndButtonTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.searchAndButtonTableLayout.Size = new System.Drawing.Size(332, 42);
             this.searchAndButtonTableLayout.TabIndex = 1;
             // 
             // flickrImageSearchButton
             // 
-            this.flickrImageSearchButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flickrImageSearchButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.flickrImageSearchButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flickrImageSearchButton.Location = new System.Drawing.Point(241, 3);
+            this.flickrImageSearchButton.Location = new System.Drawing.Point(242, 3);
             this.flickrImageSearchButton.Name = "flickrImageSearchButton";
-            this.flickrImageSearchButton.Size = new System.Drawing.Size(88, 49);
+            this.flickrImageSearchButton.Size = new System.Drawing.Size(87, 36);
             this.flickrImageSearchButton.TabIndex = 3;
             this.flickrImageSearchButton.Text = "Searc h";
             this.flickrImageSearchButton.UseVisualStyleBackColor = true;
@@ -162,7 +162,7 @@
             this.imageSearchRichTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.imageSearchRichTextBox.Location = new System.Drawing.Point(3, 3);
             this.imageSearchRichTextBox.Name = "imageSearchRichTextBox";
-            this.imageSearchRichTextBox.Size = new System.Drawing.Size(232, 49);
+            this.imageSearchRichTextBox.Size = new System.Drawing.Size(233, 36);
             this.imageSearchRichTextBox.TabIndex = 2;
             this.imageSearchRichTextBox.Text = "";
             // 
@@ -171,7 +171,7 @@
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 11);
+            this.label1.Location = new System.Drawing.Point(3, 2);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(326, 25);
             this.label1.TabIndex = 0;

@@ -95,11 +95,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControls\JappaneseAppFlickrImage.cs">
+    <Compile Include="UserControls\FlickrImage.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\JappaneseAppFlickrImage.Designer.cs">
-      <DependentUpon>JappaneseAppFlickrImage.cs</DependentUpon>
+    <Compile Include="UserControls\FlickrImage.Designer.cs">
+      <DependentUpon>FlickrImage.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\JishoDataGridView.cs">
       <SubType>UserControl</SubType>
@@ -143,8 +143,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\JappaneseAppFlickrImage.resx">
-      <DependentUpon>JappaneseAppFlickrImage.cs</DependentUpon>
+    <EmbeddedResource Include="UserControls\FlickrImage.resx">
+      <DependentUpon>FlickrImage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\JishoDataGridView.resx">
       <DependentUpon>JishoDataGridView.cs</DependentUpon>
